@@ -15,6 +15,8 @@
 		78C7EA5F2058BDD6003887F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C7EA5E2058BDD6003887F8 /* main.m */; };
 		78C7EA692058BDD6003887F8 /* TrySendingPDFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C7EA682058BDD6003887F8 /* TrySendingPDFTests.m */; };
 		78C7EA742058BDD6003887F8 /* TrySendingPDFUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C7EA732058BDD6003887F8 /* TrySendingPDFUITests.m */; };
+		78C7EA822058BF50003887F8 /* TapNGo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 78C7EA812058BF50003887F8 /* TapNGo.pdf */; };
+		78C7EA8520590583003887F8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C7EA8420590583003887F8 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		78C7EA6F2058BDD6003887F8 /* TrySendingPDFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrySendingPDFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C7EA732058BDD6003887F8 /* TrySendingPDFUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrySendingPDFUITests.m; sourceTree = "<group>"; };
 		78C7EA752058BDD6003887F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C7EA812058BF50003887F8 /* TapNGo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = TapNGo.pdf; sourceTree = "<group>"; };
+		78C7EA8420590583003887F8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C7EA8520590583003887F8 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,7 @@
 				78C7EA672058BDD6003887F8 /* TrySendingPDFTests */,
 				78C7EA722058BDD6003887F8 /* TrySendingPDFUITests */,
 				78C7EA4D2058BDD6003887F8 /* Products */,
+				78C7EA8320590583003887F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +112,7 @@
 				78C7EA522058BDD6003887F8 /* ViewController.h */,
 				78C7EA532058BDD6003887F8 /* ViewController.m */,
 				78C7EA552058BDD6003887F8 /* Main.storyboard */,
+				78C7EA812058BF50003887F8 /* TapNGo.pdf */,
 				78C7EA582058BDD6003887F8 /* Assets.xcassets */,
 				78C7EA5A2058BDD6003887F8 /* LaunchScreen.storyboard */,
 				78C7EA5D2058BDD6003887F8 /* Info.plist */,
@@ -130,6 +137,14 @@
 				78C7EA752058BDD6003887F8 /* Info.plist */,
 			);
 			path = TrySendingPDFUITests;
+			sourceTree = "<group>";
+		};
+		78C7EA8320590583003887F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78C7EA8420590583003887F8 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +256,7 @@
 				78C7EA5C2058BDD6003887F8 /* LaunchScreen.storyboard in Resources */,
 				78C7EA592058BDD6003887F8 /* Assets.xcassets in Resources */,
 				78C7EA572058BDD6003887F8 /* Main.storyboard in Resources */,
+				78C7EA822058BF50003887F8 /* TapNGo.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36DSW7DB5F;
 				INFOPLIST_FILE = TrySendingPDF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AJ.TrySendingPDF;
@@ -444,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36DSW7DB5F;
 				INFOPLIST_FILE = TrySendingPDF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AJ.TrySendingPDF;
